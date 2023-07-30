@@ -1,0 +1,214 @@
+body {
+  background-color: #fff7a5;
+}
+
+.barraPrincipal {
+  background-image: url(images/gif/brillosPequenos.gif);
+  padding: 50px;
+  text-shadow: 5px 3px #fffabe;
+}
+
+/*Navegador*/
+.navbar {
+  padding: 1rem 2rem;
+  background-image: url(images/gif/brillosPequenos.gif);
+}
+
+.navbar a:hover {
+  text-shadow: 2px 2px 3px #fffde2;
+}
+
+.dropdown-menu {
+  background-color: #e5c676;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f2de8e;
+}
+
+/*Títulos*/
+.title-pag {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 60px;
+}
+
+/*cards*/
+.tarjetasDeInicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tarjetasDeInicio card {
+  display: inline-block;
+}
+
+.tarjetasDeInicio .card-title {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.tarjetasDeInicio .card-body {
+  margin: 0;
+  background-color: #e5c676;
+  text-align: justify;
+}
+
+.tarjetasDeInicio .btn {
+  background-color: #d7ad5f;
+  border: 1px solid #815f09;
+}
+
+.tarjetasDeInicio .btn:hover {
+  background-color: #ca9447;
+}
+
+.tarjetasDeInicio div {
+  margin-right: 80px;
+  border: 1px solid #ecc155;
+}
+
+.tarjetasDeInicio img {
+  height: 260px;
+}
+
+/*Imágenes / COLUMNAS*/
+
+.row div {
+  background-color: #fff7a5;
+}
+
+.row img {
+  width: 320px;
+}
+
+.row h2 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+.row p {
+  text-align: justify;
+}
+
+.row a {
+  color: #ca9447;
+}
+
+.row a:hover {
+  color: #865f27;
+}
+
+
+/*CARRUSEL*/
+.carousel-inner img {
+  height: 600px;
+  width: auto;
+}
+
+.carousel-inner h5 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+}
+
+.carousel-inner a {
+  color: #ca9447;
+  font-size: 17px;
+}
+
+.carousel-inner a:hover {
+  color: #fff7a5;
+}
+
+img {
+  width: 200px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+.title-relaciones {
+  background-image: url(images/gif/brillosPequenos.gif);
+  padding: 10px;
+  font-size: 45px;
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+}
+
+/*ACORDEÓN*/
+
+.accordion .accordion-button {
+  background-color: #d7ad5f;
+  font-size: 25px;
+  font-family: 'Kaushan Script', cursive;
+  color: rgb(33, 37, 41);
+}
+
+.accordion .accordion-button:focus {
+  border: 7px solid;
+  box-shadow: none;
+  border-image-repeat: round;
+  border-image-slice: 10;
+  border-image-source:url(images/gif/estrellas.gif); 
+}
+
+.accordion .accordion-item {
+  background-color: #f2de8e;
+}
+
+.accordion a {
+  color: #ca9447;
+}
+
+.accordion a:hover {
+  color: #865f27;
+}
+
+/*Footer*/
+
+footer{
+  border: 1px solid #e5c676;
+  background-color: rgb(242,242,242);
+  border-color: #e5c676;
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  position:static;
+  bottom: 0;
+}
+
+footer nav{
+  background-color: #f2de8e;
+  padding: 10px;
+  display: flex;
+  font-size: 15px;
+}
+
+footer nav .footer-right{
+  background-color: #f2de8e;
+  margin-left: 1120px;
+  list-style: none;
+  width: 400px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: static;
+  bottom: 0;
+}
+
+footer nav .footer-right a{
+  color: #ca9447;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+footer nav .footer-right a:hover{
+  color: #865f27;
+  text-decoration: underline;
+}
